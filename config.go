@@ -104,6 +104,7 @@ func LoadConfigFromFile(base, path string, files []string) (DeckConfig, error) {
 	}
 
 	_, err = toml.Decode(string(file), &config)
+	//verbosef("config %s", config)
 	if config.Parent != "" {
 		parent, err := LoadConfigFromFile(base, config.Parent, append(files, filename))
 		if err != nil {
