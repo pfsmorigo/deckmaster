@@ -46,6 +46,10 @@ To install deckmaster, simply run:
     git clone https://github.com/muesli/deckmaster.git
     cd deckmaster
     go build
+    go install
+
+`go install` will install `deckmaster` under `$GOBIN`. If the variable isn't
+set the default destination is `~/go/bin`.
 
 ## System Setup
 
@@ -93,7 +97,7 @@ Description=Deckmaster Service
 
 [Service]
 # adjust the path to deckmaster and .deck file to suit your needs
-ExecStart=/usr/local/bin/deckmaster --deck path-to/some.deck
+ExecStart=%h/go/bin/deckmaster --deck path-to/some.deck
 Restart=on-failure
 ExecReload=kill -HUP $MAINPID
 
