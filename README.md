@@ -304,6 +304,24 @@ status` has been chosen, the icons `icon_playing`, `icon_paused` or
 `icon_no_player` will be shown depending on the playback status of the selected
 media player.
 
+#### Home Assistant
+
+a widget that displays the state of an entity in Home Assistant and lets you call a service on it
+
+```toml
+[keys.widget]
+  id = "homeassistant"
+  [keys.widget.config]
+    entity_name = true
+    icon_on = "../assets/homeassistant/on.png"
+    icon_off = "../assets/homeassistant/off.png"
+    entity_id = "light.hue_bulb"
+    url = "<Home Assistant url>"
+    token = "<Home Assistant Long-lived access token>"
+    service = "light.toggle"
+```
+Note: currently only binary entities can be displayed
+
 ### Actions
 
 You can hook up any key with several actions. A regular keypress will trigger

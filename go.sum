@@ -30,6 +30,8 @@ github.com/lucasb-eyer/go-colorful v1.2.0 h1:1nnpGOrhyZZuNyfu1QjKiUICQ74+3FNCN69
 github.com/lucasb-eyer/go-colorful v1.2.0/go.mod h1:R4dSotOR9KMtayYi1e77YzuveK+i7ruzyGqttikkLy0=
 github.com/mitchellh/go-homedir v1.1.0 h1:lukF9ziXFxDFPkA1vsr5zpc1XuPDn/wFntq5mG+4E0Y=
 github.com/mitchellh/go-homedir v1.1.0/go.mod h1:SfyaCUpYCn1Vlf4IUYiD9fPX4A5wJrkLzIz1N1q0pr0=
+github.com/mkelcik/go-ha-client v1.0.0 h1:L49uN3ucuG0jTW27MoAc5kY8JblznGXVs83/ZHxUEB8=
+github.com/mkelcik/go-ha-client v1.0.0/go.mod h1:X8bXN+jvTbDsyw6Km6f6Hq6Fof+cgW9Bd5DOTiNcwHA=
 github.com/muesli/coral v1.0.0/go.mod h1:bf91M/dkp7iHQw73HOoR9PekdTJMTD6ihJgWoDitde8=
 github.com/muesli/streamdeck v0.4.0 h1:kBV1RCLFz3dYfVlBvCPG0cWxTFK7IOdcc1Jw2T4Qz4E=
 github.com/muesli/streamdeck v0.4.0/go.mod h1:6Fjt/9so3B22BtraQLRTPHu33c7yVgUIcDPiZqzSHfE=
