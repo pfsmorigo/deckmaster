@@ -124,6 +124,12 @@ func NewWidget(dev *streamdeck.Device, base string, kc KeyConfig, bg image.Image
 
 	case "weather":
 		return NewWeatherWidget(bw, kc.Widget)
+
+	case "mediaPlayer":
+		return NewMediaPlayerWidget(bw, kc.Widget)
+
+	case "homeassistant":
+		return NewHomeAssistantWidget(bw, kc.Widget)
 	}
 
 	// unknown widget ID

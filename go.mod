@@ -7,12 +7,13 @@ require (
 	github.com/atotto/clipboard v0.1.4
 	github.com/bendahl/uinput v1.6.1
 	github.com/flopp/go-findfont v0.1.0
-	github.com/godbus/dbus v4.1.0+incompatible
+	github.com/godbus/dbus/v5 v5.1.0
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
 	github.com/jezek/xgb v1.1.0
 	github.com/jezek/xgbutil v0.0.0-20210302171758-530099784e66
 	github.com/lucasb-eyer/go-colorful v1.2.0
 	github.com/mitchellh/go-homedir v1.1.0
+	github.com/mkelcik/go-ha-client v1.0.0
 	github.com/muesli/streamdeck v0.4.0
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
 	github.com/shirou/gopsutil v3.21.11+incompatible
